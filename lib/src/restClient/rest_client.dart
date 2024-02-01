@@ -15,6 +15,8 @@ final class RestClient extends DioForNative {
       LogInterceptor(
         requestBody: true,
         responseBody: true,
+        requestHeader: true,
+        responseHeader: true,
       ),
       AuthInterceptor(),
     ]);
