@@ -30,6 +30,7 @@ final class LabClinicasTheme {
       errorBorder: _defaultInputBorder.copyWith(
         borderSide: const BorderSide(color: Colors.red),
       ),
+      border: _defaultInputBorder,
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
